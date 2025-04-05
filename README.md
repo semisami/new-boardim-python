@@ -64,18 +64,6 @@ A Python application that enables shape transformation through a graphical inter
   - Tools stored in `tools.json`
   - Automatic saving/loading
 
-### Key Functions
-```python
-# Transformation core
-process_shape_transformation()
-compare_images()
-auto_crop()
-
-# Matrix operations
-remove_duplicate_rows_columns()
-add_col_row()
-string_to_matrix()
-```
 
 ## Examples
 ### Creating a Square Tool
@@ -87,17 +75,3 @@ string_to_matrix()
 1. Select "Basic Square"
 2. Draw two adjacent points
 3. System completes square pattern
-
-## Troubleshooting
-| Issue | Solution |
-|-------|----------|
-| Corrupted tools.json | Delete file and recreate tools |
-| Missing dependencies | Run `pip install -r requirements.txt` |
-| Prediction errors | Increase initial points (n) value |
-
-## Support
-For assistance, please open an issue in the project repository.
-
-## License
-Open-source under MIT License.
-```
